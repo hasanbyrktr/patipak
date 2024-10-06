@@ -1,0 +1,61 @@
+body{
+    box-sizing: border-box;
+}
+#navbar-colour{
+    background-color: #03120E;
+   
+}
+.link-colour{
+    color:#ebeff1 ;
+}
+#main-content{
+    color:#212429;
+    background-color:#A3C4BC ;
+}
+h1{
+    font-size: 40px !important;
+}
+@media (min-width: 992px) {
+    .fixed-img {
+      width: 350px; /* Sabit genişlik */
+      height: auto; /* Yükseklik oranını koru */
+    }
+  }
+#main-image{
+   
+    border: none;
+    background-image:url('assets/img/wood-pellets-stove-symbolizing-warmth-sustainability-indoors_871349-18955.avif');
+
+}
+.other-content-container{
+
+    background-color: #E4DEE4
+}
+.evalution-part{
+    background-color: #f8f9fb;
+}
+#ceo-img{
+    width: 50px;
+    border-radius: 100%;
+    
+}
+.other-blog-container{
+    background-color: #E4DEE4;
+    text-align: center;
+
+}
+#button-addon2:hover{   
+    color: #03120E !important; 
+
+}
+.subtitle-size{
+    font-size: 0.75rem;
+}
+#copyright{
+    background-color: #1b252f;
+    color: #fffefe;
+}
+.icon-size{
+    font-size: 24px;
+    margin-bottom: 0%;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memnuniyet ve iletişim</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="assets/favicon-16x16.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="nav-container navbar navbar-expand-lg shadow border-bottom border-dark-subtle">
+
+            <div class="container-fluid">
+              <a class="navbar-brand fw-semibold fs-2" href="#">PatiPak</a>
+              <i class="fa-regular fa-envelope  fa-2x"></i>
+              <a id="insta-link" target="_blank" class="text-white me-auto icon-size link-underline link-underline-opacity-0 fs-2  ms-3 ted" href="https://www.instagram.com/patipak.kum/"> <i class="text-dark fab fa-instagram "></i></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                  <a class="nav-link active" aria-current="page" href="/index.html">Anasayfa</a>
+                  <a class="nav-link" href="/about/index.html">Hakkımızda</a>
+                  <a class="nav-link disabled" aria-disabled="true">v3.8 Pek yakında!</a>
+                </div>
+              </div>
+            </div>
+          
+    </nav>
+
+    <article class="article-container ">
+        <form action="https://formsubmit.co/bayraktarh317@gmail.com" class="p-5 container form-text-colour " method="POST">
+           <!-- formsubmit.co extra bilgiler
+            _next <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"> : gönderdikten sonra teşekkür ve ya başka bir siteye gider
+            
+            _replyto, kullanıcının e-posta adresine kolayca yanıt vermenizi sağlar ve özellikle form üzerinden gelen mesajlara doğrudan geri dönüş yapmayı kolaylaştırır.
+            
+            _subject value, e-postanın konusu için kullanılır, böylece her seferinde konu satırını düzenlemek zorunda kalmadan gönderilere hızlı bir şekilde yanıt verebilirsiniz.
+            
+            _cc value,e-postanın başkalarının doğrudan muhattap olmamasıyla birlikte e-postanın paylaşılmasını sağlar
+            <input type="hidden" name="_cc" value="another@email.com,yetanother@email.com">
+
+            _blaclist : spam ve istenmeyen e postaların formu doldurmasını engellemek için kullanılır.
+            <input type="hidden" name="_blacklist" value="spam@example.com,another@example.com,example.com">
+
+            _captcha: reCAPTCHA yı kaldırır ya da açar 
+            <input type="hidden" name="_captcha" value="false">
+
+            _autoresponse: <input type="hidden" name="_autoresponse" value="Thank you for your submission! We will get back to you soon.">
+            otomatik geri yanıt vermenizi sağlar.
+
+            -webhook
+            -->
+            <p class="text-center">İletişim ve görüş formu</p>
+            <div class="row justify-content-center p-3"> 
+                <label class="form-label col-12 col-lg-1 " for="name-input">İsminiz:</label>
+                <input class="rounded col-12 col-lg-2"  id="name-input" type="text" name="first-name" required>
+            </div>
+            <div class="row justify-content-center p-3"> 
+                <label class="form-label col-12 col-lg-1" for="last-name">Soyisminiz:</label>
+                <input class="rounded col-12 col-lg-2" id="last-name" type="text" name="last-name" required>
+            </div>
+            <div class="row justify-content-center p-3"> 
+                <label class="form-label col-12 col-lg-1" for="e-mail">E-mail:</label>
+                <input class="rounded col-12 col-lg-2" id="e-mail" type="email" name="e-mail" required>
+            </div>     
+            <div class="row justify-content-center p-3">
+                <label class="form-label col-12 col-lg-1" for="age">Yaşınız:</label>
+                <input class="rounded col-12 col-lg-2" id="age" type="number" min="15" max="70" required >
+            </div>
+            <div class="row justify-content-center p-3">
+                <label class="col-12 col-lg-1" for="message">Mesajınız:</label>
+                <br>
+                <textarea class="rounded col-12 col-lg-2" id="message" name="message" style="height: 120px;""></textarea>
+            </div>
+            
+            <div class="row justify-content-center p-3">
+                <label class="form-label col-6  col-lg-1" for="visitor satisfaction">Sitemizi ne kadar beğendiniz:</label>
+                <br>
+                <input  class="col-6 col-lg-2" id="visitor satisfaction" type="range" name="visitor satisfaction" required>
+            </div>
+            <div class="d-flex justify-content-center ">
+                <button id="btn-send" class="btn m-3" type="submit">Gönder</button>
+                <button class="btn btn-danger m-3" type="reset"> Sıfırla </button>
+            </div>
+
+
+
+
+            <input type="hidden" name="_subject" value="Müşteri iletişim formu!">
+            <input type="hidden" name="_autoresponse" value="Hey dostum Merhaba! sanırım formumu doldurdun sana en müsait olduğum zamanda dönücem!">
+            <input type="hidden" name="_template" value="box">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="/index.html">
+        </form>
+    </article>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

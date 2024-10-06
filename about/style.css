@@ -1,0 +1,27 @@
+body{
+    box-sizing: border-box;
+}
+#navbar-colour{
+    background-color: #03120E;
+   
+}
+.link-colour{
+    color:#ebeff1 ;
+}
+.story-container{
+    background-color: #f8f9fb;
+}
+.border-radius{
+    border-radius: 15% !important;
+}
+.story-container-2{
+    background-color: #fff;
+}
+.last-story{
+    
+        background-color: #f8f9fb;
+}
+#copyright{
+    background-color: #1b252f;
+    color: #fffefe;
+}

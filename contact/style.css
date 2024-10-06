@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+.nav-container{
+
+background-color:#CBBFBB ;
+
+}
+.article-container{
+    background-color: #2A2E45;
+}
+#btn-send{
+    background-color: #53DD6C;
+}
+#btn-send:hover{
+    background-color: #279AF1;
+}
+.form-text-colour{
+
+    color: #CBBFBB;
+}
